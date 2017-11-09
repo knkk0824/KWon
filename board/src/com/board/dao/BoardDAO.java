@@ -1,5 +1,7 @@
 package com.board.dao;
 
-public interface BoardDAO {
+import java.sql.SQLException;
 
+public interface BoardDAO {
+    void insertBoard(String board) throws SQLException;
 }
