@@ -1,5 +1,6 @@
 package com.board.dao;
 
+import java.util.List;
 import java.sql.SQLException;
 
 public interface BoardDAO {
